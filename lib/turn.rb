@@ -34,8 +34,6 @@ def turn(board)
     display_board(board)
   else 
     user_input = gets.strip
-  
-  
-end
+  end
 end
 
