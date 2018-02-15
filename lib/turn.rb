@@ -31,7 +31,7 @@ def turn(board)
   index_number = input_to_index(user_input)
   if valid_move?(board, index_number)
   else 
-    ""
+    user_input
 end
 end
 
