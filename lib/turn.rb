@@ -30,8 +30,10 @@ def turn(board)
   user_input = gets.strip
   index_number = input_to_index(user_input)
   if valid_move?(board, index_number)
+    move(board, index_number)
   else 
     user_input = gets.strip
+  
 end
 end
 
